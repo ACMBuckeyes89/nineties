@@ -1,25 +1,24 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { BatmanHistorial, BatmanVillains, SupportComics } from './batman-page';
+import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+  <div>
+
+    <div className='body'>
+    <BatmanHistorial></BatmanHistorial> 
+    <h3 className='h3'>Gotham Public Enemies</h3>
+    <BatmanVillains alias="Alias: Joker" symbol="Symbol: Joker Card" name="Name: Unknown" job="Occupation: Criminal Mastermind"></BatmanVillains>
+    <BatmanVillains alias='Alias: Penguin' symbol='Symbol: Umbrella' name='Name: Oswald Cobblepot' job="Occupation: Mobster"></BatmanVillains>
+    <BatmanVillains alias="Alias: Ra's al Ghul" symbol="Symbol: Sword" name="Name: Uknown" job="Occupation: Assassin"></BatmanVillains>
+    <BatmanVillains alias='Alias: Deathstroke' symbol='Symbol: Katana' name='Name: Slade Wilson' job="Occupation: Mercenary"></BatmanVillains>
+    <h4>Support Local Marketplaces </h4>
+    <SupportComics name='Metro Comics' city='Los Angeles' onlineStore='Yes'></SupportComics>
+    <SupportComics name= "Angel City Comics" city="Hollywood" onlineStore='No'></SupportComics>
+    <SupportComics name="Little Tokyo Anime" city='Downtown L.A.' onlineStore='No'></SupportComics>
     </div>
+  </div>
   );
 }
 
