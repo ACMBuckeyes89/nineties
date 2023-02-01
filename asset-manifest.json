@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/nineties/static/css/main.8a0c1b57.css",
+    "main.js": "/nineties/static/js/main.ff556a2b.js",
+    "static/media/gotham-city.jpeg": "/nineties/static/media/gotham-city.5e485997ba6b7dd0e485.jpeg",
+    "index.html": "/nineties/index.html",
+    "main.8a0c1b57.css.map": "/nineties/static/css/main.8a0c1b57.css.map",
+    "main.ff556a2b.js.map": "/nineties/static/js/main.ff556a2b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8a0c1b57.css",
+    "static/js/main.ff556a2b.js"
+  ]
+}
